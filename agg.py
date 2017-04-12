@@ -1,3 +1,5 @@
+#!/usr/bin/env python
+
 file = open("parts.txt", "r")
 
 t = file.read()
