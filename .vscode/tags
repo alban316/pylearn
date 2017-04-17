@@ -80,7 +80,9 @@ _root	../graphics.py	/^_root = tk.Tk()$/;"	kind:variable	line:185
 _setFontComponent	../graphics.py	/^    def _setFontComponent(self, which, value):$/;"	kind:member	line:842
 _update_lasttime	../graphics.py	/^_update_lasttime = time.time()$/;"	kind:variable	line:188
 addItem	../graphics.py	/^    def addItem(self, item):$/;"	kind:member	line:389
+agg.py	../agg.py	1;"	kind:file	line:1
 appropriate	../graphics.py	/^try:  # import as appropriate for 2.x vs. 3.x$/;"	kind:namespace	line:165
+ccount	../agg.py	/^def ccount(ddict, i):$/;"	kind:function	line:13
 checkKey	../graphics.py	/^    def checkKey(self):$/;"	kind:member	line:349
 checkMouse	../graphics.py	/^    def checkMouse(self):$/;"	kind:member	line:323
 clone	../graphics.py	/^    def clone(self):$/;"	kind:member	line:568
@@ -97,8 +99,10 @@ close	../inherit.py	/^    def close(self):$/;"	kind:member	line:10
 color_rgb	../graphics.py	/^def color_rgb(r,g,b):$/;"	kind:function	line:959
 cur.py	../cur.py	1;"	kind:file	line:1
 curses	../cur.py	/^import curses$/;"	kind:namespace	line:4
+d	../agg.py	/^d = {}$/;"	kind:variable	line:19
 delItem	../graphics.py	/^    def delItem(self, item):$/;"	kind:member	line:392
 draw	../graphics.py	/^    def draw(self, graphwin):$/;"	kind:member	line:474
+file	../agg.py	/^file = open("parts.txt", "r")$/;"	kind:variable	line:3
 flush	../graphics.py	/^    def flush(self):$/;"	kind:member	line:303
 for	../graphics.py	/^try:  # import as appropriate for 2.x vs. 3.x$/;"	kind:namespace	line:165
 gallows	../hangman.py	/^gallows = [[0 for cols in range(5)] for rows in range(7)]$/;"	kind:variable	line:12
@@ -140,6 +144,7 @@ main	../inherit.py	/^def main():$/;"	kind:function	line:25
 main	../righttr.py	/^def main():$/;"	kind:function	line:15
 maskWord	../hangman.py	/^    def maskWord(self,word):$/;"	kind:member	line:61
 math	../righttr.py	/^import math$/;"	kind:namespace	line:3
+matplotlib	../pplot.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
 move	../graphics.py	/^    def move(self, dx, dy):$/;"	kind:member	line:506
 nextWord	../hangman.py	/^    def nextWord(self):$/;"	kind:member	line:58
 open	../inherit.py	/^    def open(self):$/;"	kind:member	line:13
@@ -147,6 +152,8 @@ os	../graphics.py	/^import time, os, sys$/;"	kind:namespace	line:163
 pad	../cur.py	/^pad = curses.newpad(100, 100)$/;"	kind:variable	line:8
 plot	../graphics.py	/^    def plot(self, x, y, color="black"):$/;"	kind:member	line:289
 plotPixel	../graphics.py	/^    def plotPixel(self, x, y, color="black"):$/;"	kind:member	line:296
+plt	../pplot.py	/^import matplotlib.pyplot as plt$/;"	kind:namespace	line:1
+pplot.py	../pplot.py	1;"	kind:file	line:1
 printGallows	../hangman.py	/^    def printGallows(self):$/;"	kind:member	line:77
 redraw	../graphics.py	/^    def redraw(self):$/;"	kind:member	line:395
 reset	../hangman.py	/^    def reset(self):$/;"	kind:member	line:29
@@ -178,12 +185,14 @@ slum.py	../slum.py	1;"	kind:file	line:1
 stdscr	../cur.py	/^stdscr = curses.initscr()$/;"	kind:variable	line:6
 sys	../graphics.py	/^import time, os, sys$/;"	kind:namespace	line:163
 sys	../hello.py	/^import sys$/;"	kind:namespace	line:4
+t	../agg.py	/^t = file.read()$/;"	kind:variable	line:5
 test	../graphics.py	/^def test():$/;"	kind:function	line:964
 time	../graphics.py	/^import time, os, sys$/;"	kind:namespace	line:163
 tk	../graphics.py	/^   import Tkinter as tk$/;"	kind:namespace	line:168
 tk	../graphics.py	/^   import tkinter as tk$/;"	kind:namespace	line:166
 toScreen	../graphics.py	/^    def toScreen(self, x, y):$/;"	kind:member	line:366
 toWorld	../graphics.py	/^    def toWorld(self, x, y):$/;"	kind:member	line:373
+tt	../agg.py	/^tt = t.split("\\n")$/;"	kind:variable	line:9
 undraw	../graphics.py	/^    def undraw(self):$/;"	kind:member	line:491
 undraw	../graphics.py	/^    def undraw(self):$/;"	kind:member	line:902
 unmask	../hangman.py	/^    def unmask(self,letter):$/;"	kind:member	line:67
