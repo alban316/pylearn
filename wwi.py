@@ -17,10 +17,10 @@ import pandas as pd
 import matplotlib.pyplot as plt
 #import numpy as np
 
-host = "CSGTAMLT38"
+host = "localhost"
 database = "WideWorldImporters"
-user = "sa"
-password = "Withersp00n"
+user = "junk"
+password = "fred"
 connStr = "Provider=SQLOLEDB.1;User ID={0};Password={1};Initial Catalog={2};Data Source={3}".format(user, password, database, host)
 conn = ado.connect(connStr)
 
